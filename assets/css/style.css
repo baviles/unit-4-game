@@ -1,0 +1,9 @@
+body {
+    background-image: url("../images/black\ background.jpeg")
+}
+
+p {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify
+}
