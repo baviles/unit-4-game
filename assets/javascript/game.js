@@ -48,11 +48,11 @@ $(document).ready(function () {
 }
   function loser() {
     alert("you lost, OMG I'm so sorry");
-    lose++;
+    losses++;
     $("#lose").html(losses);
     reset();
+    console.log(losses)
   }
-  console.log(loser)
 
   function ifWins() {
     if (total === Random) {
